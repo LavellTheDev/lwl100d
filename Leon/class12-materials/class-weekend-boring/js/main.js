@@ -31,15 +31,22 @@
 // }
 
 document.querySelector('#check').addEventListener('click', check);
+let reveal = document.querySelector('#placeToSee').innerText = check;
 
 function check(){
   const day = document.querySelector('#day').value;
 
+
   if (day === "Tuesday" || day === "Thursday") {
-    alert("Class day!");
+    return "Class day!";
   } else if(day === "Saturday" || day=== "Sunday") {
-    alert("Weekend!")
+    return "Weekend!"
   }else {
-    alert("Boring");
+    return "Boring";
   }
+  
 }
+
+console.log
+  
+ 
