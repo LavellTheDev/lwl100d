@@ -19,18 +19,19 @@ img{
   margin: 0 auto;
 }
 ul{
-  width: 250px;
-  height: 70px;
+  width: 100%;
+  height: auto;
   border: 3px solid black;
   margin: 0 auto;
   list-style: none;
   padding: 0;
   margin-bottom: 10px;
   display: flex;
+  overflow: hidden;
 }
 li{
-  width: 94px;
-  height: 65px;
+  width: 350px;
+  height: auto;
   flex-direction: row;
 }
 
@@ -38,14 +39,18 @@ li{
 /* ADDITIONAL STYLES
 /*******************************************/
 #thailand{
-  background: rgba(241,63,247,1);
+  background-image: url(/destination-picker/img/thai.png);
+  object-fit: contain;
 }
 #germany{
-  background: rgba(0,253,81,1);
+   background-image: url(/destination-picker/img/germany.png);
+   object-fit: contain;
 }
 #china{
-  background: rgba(0,254,255);
+     background-image: url(/destination-picker/img/china.png);
+   object-fit: contain;
 }
 #japan{
-  background: rgba(250, 0, 0, 1);
+     background-image: url(/destination-picker/img/japan.png);
+   object-fit: contain;
 }

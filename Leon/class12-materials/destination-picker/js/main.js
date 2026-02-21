@@ -1,21 +1,21 @@
 
-document.getElementById('purple').onclick = partyPurple;
-document.getElementById('blue').onclick = partyBlue;
-document.getElementById('red').onclick = partyRed;
-document.getElementById('green').onclick = partyGreen;
+document.getElementById('thailand').onclick = thailandPurple;
+document.getElementById('germany').onclick = germanBlue;
+document.getElementById('china').onclick = chinaRed;
+document.getElementById('japan').onclick = japanGreen;
 
-function partyPurple(){
-    document.querySelector('body').style.backgroundColor = 'rgba(241,63,247,1)'
+function thailandPurple(){
+    document.querySelector('body').style.backgroundImage = "url('/destination-picker/img/thai.png')";
 }
 
-function partyBlue(){
-    document.querySelector('body').style.backgroundColor = 'rgb(35, 162, 241)'
+function germanBlue(){
+    document.querySelector('body').style.backgroundImage = "url('/destination-picker/img/germany.png')";
 }
 
-function partyRed(){
-    document.querySelector('body').style.backgroundColor = 'rgba(250, 0, 0, 1)'
+function chinaRed(){
+    document.querySelector('body').style.backgroundImage = "url('/destination-picker/img/china.png')";
 }
 
-function partyGreen(){
-    document.querySelector('body').style.backgroundColor = 'rgba(0,253,81,1)'
+function japanGreen(){
+    document.querySelector('body').style.backgroundImage = "url('/destination-picker/img/japan.png')";
 }
